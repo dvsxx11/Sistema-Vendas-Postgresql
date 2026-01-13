@@ -7,6 +7,47 @@ Este repositório contém o **trabalho de modelagem e implementação de um banc
 O projeto inclui os scripts SQL para criação das tabelas, relações, inserção de dados e possíveis consultas de exemplo.
 
 ---
+## ⚙️ Funcionalidades do Sistema
+
+O banco de dados foi projetado para oferecer suporte às principais operações de um **Sistema de Vendas para Loja**, garantindo integridade, organização e facilidade de consulta dos dados.
+
+### 👤 Gerenciamento de Clientes
+- Cadastro de clientes com dados pessoais e de contato  
+- Identificação única de cada cliente  
+- Relacionamento do cliente com seus pedidos  
+
+### 📦 Gerenciamento de Produtos
+- Cadastro de produtos com descrição, preço e categoria  
+- Controle de produtos disponíveis para venda  
+- Associação dos produtos aos pedidos realizados  
+
+### 🏬 Controle de Estoque
+- Registro da quantidade disponível de cada produto  
+- Atualização de estoque conforme vendas  
+- Prevenção de inconsistências nos dados de produtos  
+
+### 🧾 Gerenciamento de Pedidos
+- Criação de pedidos vinculados a clientes  
+- Registro da data do pedido  
+- Associação de múltiplos produtos a um único pedido  
+
+### 🛒 Itens do Pedido
+- Controle detalhado dos produtos vendidos em cada pedido  
+- Registro de quantidade e valor unitário  
+- Cálculo indireto do valor total do pedido  
+
+### 💳 Formas de Pagamento
+- Cadastro de diferentes métodos de pagamento  
+- Associação da forma de pagamento aos pedidos  
+- Flexibilidade para futuras expansões  
+
+### 🔗 Integridade Relacional
+- Uso de **chaves primárias e estrangeiras**  
+- Garantia de consistência entre tabelas  
+- Estrutura preparada para consultas complexas e relatórios  
+
+---
+
 
 ## 🧠 Escopo do Projeto
 
@@ -43,20 +84,4 @@ O projeto foi desenvolvido com:
 
 ---
 
-## 🚀 Como Usar
 
-### Pré-requisitos
-
-Antes de rodar o banco, você precisa ter instalado:
-
-✔ PostgreSQL (versão compatível no seu ambiente)  
-✔ Cliente psql ou outra interface de gerenciamento de banco  
-✔ Permissão para criar banco de dados e objetos
-
----
-
-### Passos
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/dvsxx11/Trabalho-Postgresql.git
