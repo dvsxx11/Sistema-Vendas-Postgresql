@@ -1,17 +1,62 @@
-Sistema de Vendas para Loja
+# Trabalho-PostgreSQL
 
-O projeto se trata da criação do banco de dados de dados de uma loja que quer ter o controle de produtos, clientes, pedidos, itens de pedidos, formas de pagamento e estoque.
+## 📌 Sobre
 
-1) Cenário Escolhido
+Este repositório contém o **trabalho de modelagem e implementação de um banco de dados PostgreSQL** para um **Sistema de Vendas para Loja**. O objetivo é organizar as estruturas de dados necessárias para controlar clientes, produtos, estoque, pedidos, itens de pedidos e formas de pagamento.
 
-O cenário escolhido é um Sistema de Vendas para Loja:
+O projeto inclui os scripts SQL para criação das tabelas, relações, inserção de dados e possíveis consultas de exemplo.
 
-- Clientes: Cadastro de informações dos clientes, como nome, email, telefone e CPF.
-- Produtos: Cadastro de produtos vendidos na loja, incluindo nome, preço, categoria e descrição.
-- Estoque: Controle de quantidade de produtos disponíveis em estoque.
-- Formas de Pagamento: Formas de pagamento do produto.
-- Pedidos: Registro dos pedidos realizados pelos clientes, incluindo os produtos comprados, a forma de pagamento e o valor total.
-- Itens de Pedido: Relacionamento entre pedidos e os produtos comprados, com a quantidade e preço de cada produto.
+---
 
-Link do video:
-https://drive.google.com/file/d/1lo9YWDiLK_WJ-iBI5Nd4FdbcZ-NDK-35/view?usp=drive_link
+## 🧠 Escopo do Projeto
+
+O sistema de vendas contempla os seguintes elementos principais:
+
+**✨ Entidades e funcionalidades:**
+
+✔ Clientes  
+✔ Produtos  
+✔ Estoque  
+✔ Formas de Pagamento  
+✔ Pedidos  
+✔ Itens de Pedido  
+
+O banco de dados foi modelado considerando as relações entre estas entidades para suportar operações típicas de uma loja (cadastro, pedidos, controle de estoque, etc).
+
+---
+
+## 📁 Estrutura do Repositório
+
+| Arquivo / Pasta | Descrição |
+|-----------------|-----------|
+| `ddl/`          | Scripts DDL (*Data Definition Language*) que criam as tabelas e chaves do banco. |
+| `dml/`          | Scripts DML (*Data Manipulation Language*) com inserts e populações de exemplo. |
+| `README.MD`     | Documentação do projeto (este arquivo). |
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+O projeto foi desenvolvido com:
+
+- 🗄 **PostgreSQL** – Sistema de gerenciamento de banco de dados relacional open-source. :contentReference[oaicite:0]{index=0}
+
+---
+
+## 🚀 Como Usar
+
+### Pré-requisitos
+
+Antes de rodar o banco, você precisa ter instalado:
+
+✔ PostgreSQL (versão compatível no seu ambiente)  
+✔ Cliente psql ou outra interface de gerenciamento de banco  
+✔ Permissão para criar banco de dados e objetos
+
+---
+
+### Passos
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/dvsxx11/Trabalho-Postgresql.git
