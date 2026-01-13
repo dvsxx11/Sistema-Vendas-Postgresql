@@ -1,4 +1,4 @@
-# Trabalho-PostgreSQL
+# Sistema-Vendas-postgresql
 
 ## 📌 Sobre
 
