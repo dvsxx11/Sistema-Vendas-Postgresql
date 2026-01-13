@@ -1,4 +1,4 @@
-# Sistema-Vendas-postgresql
+# Sistema-Vendas-Postgresql
 
 ## 📌 Sobre
 
